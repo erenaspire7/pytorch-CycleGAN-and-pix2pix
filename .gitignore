@@ -44,3 +44,6 @@ test/data/legacy_serialized.pt
 
 #Ignore Wandb
 wandb/
+
+
+venv/
