@@ -11,8 +11,8 @@ from util.util import tensor2im
 from PIL import Image
 from torch import Tensor
 
-extra_args = sys.argv[5:]
-sys.argv[1:] = sys.argv[1:5]
+extra_args = sys.argv[3:]
+sys.argv[1:] = sys.argv[1:3]
 
 opt_cls = TrainOptions()
 opt = opt_cls.parse()
